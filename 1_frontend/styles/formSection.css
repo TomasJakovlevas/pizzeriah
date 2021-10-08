@@ -1,0 +1,64 @@
+#pizzaFormContainer h1 {
+  text-align: center;
+  border-bottom: 2px solid white;
+}
+
+.inputWrapper {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.inputWrapper input,
+.inputWrapper select {
+  position: relative;
+  padding: 10px;
+  margin: 5px 0;
+
+  border: none;
+  background-color: rgba(255, 203, 34, 0);
+  border-bottom: 2px solid rgb(182, 27, 27);
+
+  width: 80%;
+}
+
+.inputWrapper input:focus,
+.inputWrapper select:focus {
+  outline: none;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonWrapper button {
+  width: 45%;
+}
+
+#addPizzaForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: rgba(255, 203, 34, 0.8);
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+}
+
+.inputWrapper,
+.buttonWrapper {
+  width: 50%;
+  margin: 5px 0;
+}
+
+.inputNote {
+  position: absolute;
+  width: 100px;
+  right: 20px;
+}

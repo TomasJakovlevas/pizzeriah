@@ -1,0 +1,11 @@
+/* Mobile first */
+
+header {
+  background-color: rgb(255, 203, 34);
+  width: 100%;
+  text-align: center;
+}
+
+header div img {
+  height: 120px;
+}

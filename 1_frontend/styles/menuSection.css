@@ -1,0 +1,102 @@
+/* ---MENU--- */
+#pizzaMenuContainer {
+  padding-top: 40px;
+}
+
+#pizzaMenuContainer h1 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 2px solid white;
+  margin-bottom: 10px;
+}
+
+.pizzaMenu_item {
+  background-color: rgba(255, 203, 34, 0.8);
+  color: black;
+  padding: 20px;
+  margin: 20px 0;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  width: 49%;
+}
+
+.item_img {
+  width: 32%;
+  padding-top: 32%;
+
+  background-position: center;
+  background-size: cover;
+}
+
+.item_info {
+  width: 65%;
+  margin: 0 0 0 10px;
+  height: 100%;
+
+  position: relative;
+}
+
+.item_info h3 {
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+}
+
+.item_info p {
+  padding: 5px 0;
+  width: 85%;
+}
+
+.item_info div {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: rgb(182, 27, 27);
+  color: white;
+
+  font-size: 24px;
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chillPepper {
+  height: 25px;
+}
+
+.pizzaMenuWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item_info button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+}
+
+/* POP UP */
+
+.popUp {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background-color: white;
+  color: black;
+
+  padding: 50px;
+}
+
+.popUp div {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
